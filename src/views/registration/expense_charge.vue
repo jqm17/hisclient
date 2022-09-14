@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>收费</h1>
+    <h1>收费来喽</h1>
   </div>
 </template>
 
