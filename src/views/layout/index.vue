@@ -12,15 +12,15 @@
                     <el-image
                         src="logo.png"
                         fit="contain"></el-image>
-                        <el-dropdown  style="color:#fff;margin-left:20px">
-                            <span class="el-dropdown-link">
-                                东软医生<i class="el-icon-arrow-down el-icon--right"></i>
-                            </span>
-                            <el-dropdown-menu slot="dropdown">
-                                <el-dropdown-item>个人信息</el-dropdown-item>
-                                <el-dropdown-item>退出</el-dropdown-item>
-                            </el-dropdown-menu>
-                        </el-dropdown>
+                    <el-dropdown  style="color:#fff;margin-left:20px">
+                        <span class="el-dropdown-link">
+                            东软医生<i class="el-icon-arrow-down el-icon--right"></i>
+                        </span>
+                        <el-dropdown-menu slot="dropdown">
+                            <el-dropdown-item>个人信息</el-dropdown-item>
+                            <el-dropdown-item>退出</el-dropdown-item>
+                        </el-dropdown-menu>
+                    </el-dropdown>
                 </el-col>
             </el-row>
         </el-header>
@@ -36,7 +36,7 @@
                     </el-submenu>
                 </el-menu>
             </el-aside>
-            <el-main>
+            <el-main style="line-height: 0">
                 <router-view></router-view>
             </el-main>
         </el-container>

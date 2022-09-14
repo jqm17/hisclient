@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>药房发药</h1>
+      <h1>看诊记录</h1>
     </div>
   </template>
   
