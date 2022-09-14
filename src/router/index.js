@@ -66,7 +66,7 @@ const routes = [
 		  path: '/expense_manage',
 		  name: '费用记录查看',
 		  component: ExpenseManage
-		}
+		},
       ]
     },
     {
@@ -129,7 +129,7 @@ const routes = [
 		  path: '/disposal_request',
 		  name: '处置申请',
 		  component: DisposalRequest 
-		}
+		},
       ]
     },
     {
@@ -157,7 +157,7 @@ const routes = [
 		  path: '/check_manage ',
 		  name: '检查管理',
 		  component: CheckManage 
-		}
+		},
       ]
     },
 	{
@@ -185,7 +185,7 @@ const routes = [
 		  path: '/inspection_manage',
 		  name: '检验管理',
 		  component: InspectionManage
-		}
+		},
 	  ]
 	},
 	{
@@ -213,7 +213,7 @@ const routes = [
 		  path: '/tran_history',
 		  name: '交易记录',
 		  component: TranHistory
-		}
+		},
 	  ]
 	},
 	{
@@ -241,9 +241,9 @@ const routes = [
 		  path: '/disposal_manage',
 		  name: '处置管理',
 		  component: DisposalManage
-		}
+		},
 	  ]
-	}
+	},
 ]
 
 const router = new VueRouter({
